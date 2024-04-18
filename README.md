@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project aims to explore, analyze, and visualize data from Airbnb listings to uncover insights and trends related to property types, prices, and other features. By leveraging the data, we can gain a better understanding of the Airbnb market and provide useful information for both hosts and guests.
+This project aims to explore, analyze, and visualize data from Airbnb listings to uncover insights and trends related to prices, and it's dependence on variables such as property types, accommodate type, location, bathrooms, bedrooms and other features. By leveraging the data, we can gain a better understanding of the Airbnb market and provide useful information for both hosts and guests.
 
 ## Dataset
 
 The analysis is based on a dataset that includes information about Airbnb listings, such as:
 
-- **Property Type**: The type of property (e.g., apartment, house, etc.).
 - **Price**: The price of the listing per night.
+- **Property Type**: The type of property (e.g., apartment, house, etc.).
 - **Location**: The geographical location of the property.
 - **Other Features**: Other relevant features such as the number of bedrooms, amenities, host information, etc.
 
@@ -35,13 +35,13 @@ To run the analysis and generate the visualizations, you will need:
 1. **Clone the repository**:
 
     ```shell
-    git clone https://github.com/your-username/airbnb-data-analysis.git
+    git clone https://github.com/your-username/Airbnb-data-analysis.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```shell
-    cd airbnb-data-analysis
+    cd Airbnb-data-analysis
     ```
 
 3. **Install dependencies**:
