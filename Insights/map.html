@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9fee5d80bd89a4c31b9718bc68f1ddbe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9fee5d80bd89a4c31b9718bc68f1ddbe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9fee5d80bd89a4c31b9718bc68f1ddbe = L.map(
+                "map_9fee5d80bd89a4c31b9718bc68f1ddbe",
+                {
+                    center: [41.1413, -8.61308],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_42f0759d5324b24c565aa234ebef5323 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map tiles by CartoDB, CC BY 3.0 \u2014 Map data \u00a9 OpenStreetMap contributors", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_42f0759d5324b24c565aa234ebef5323.addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+            var circle_marker_978bfc63dcd62c5fec9306e908b92951 = L.circleMarker(
+                [41.1413, -8.61308],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_3e75b1d3f2784835508e7937f5d89d87 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7db74d5a73a4ab1214a46257be2f4f55 = $(`<div id="html_7db74d5a73a4ab1214a46257be2f4f55" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Ribeira Charming Duplex</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.5</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>51</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>80.0</span></p>         </div>`)[0];
+                popup_3e75b1d3f2784835508e7937f5d89d87.setContent(html_7db74d5a73a4ab1214a46257be2f4f55);
+            
+        
+
+        circle_marker_978bfc63dcd62c5fec9306e908b92951.bindPopup(popup_3e75b1d3f2784835508e7937f5d89d87)
+        ;
+
+        
+    
+    
+            var circle_marker_8d5b5659bd7a9e1561146407c5b83c7c = L.circleMarker(
+                [41.13469, -8.60906],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_7da5c677eeeb4344797f4c14c353eea8 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_68909551a3a6dd7056b6652e1531a333 = $(`<div id="html_68909551a3a6dd7056b6652e1531a333" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>HOUSE INHISTORICAL AREA GAIA-OPORTO</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>29</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>65.0</span></p>         </div>`)[0];
+                popup_7da5c677eeeb4344797f4c14c353eea8.setContent(html_68909551a3a6dd7056b6652e1531a333);
+            
+        
+
+        circle_marker_8d5b5659bd7a9e1561146407c5b83c7c.bindPopup(popup_7da5c677eeeb4344797f4c14c353eea8)
+        ;
+
+        
+    
+    
+            var circle_marker_dad0bef6ac67141cbec905150c7ffc10 = L.circleMarker(
+                [41.15292, -8.61302],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_48a0e3cf73d23532c1bba67f6865ad26 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4d55e807422320e374f8922fbb9b8448 = $(`<div id="html_4d55e807422320e374f8922fbb9b8448" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Premium Exclusive house & garden Rua Almada</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>22</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>125.0</span></p>         </div>`)[0];
+                popup_48a0e3cf73d23532c1bba67f6865ad26.setContent(html_4d55e807422320e374f8922fbb9b8448);
+            
+        
+
+        circle_marker_dad0bef6ac67141cbec905150c7ffc10.bindPopup(popup_48a0e3cf73d23532c1bba67f6865ad26)
+        ;
+
+        
+    
+    
+            var circle_marker_37682f37d8476b300310e0cdfc09575e = L.circleMarker(
+                [41.14655, -8.61297],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_61e89e50e46d40e2547af36eb6d680eb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_beb5fbd694689e78333d03105f4587b6 = $(`<div id="html_beb5fbd694689e78333d03105f4587b6" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Elegant suite in historic center</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>203</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>42.0</span></p>         </div>`)[0];
+                popup_61e89e50e46d40e2547af36eb6d680eb.setContent(html_beb5fbd694689e78333d03105f4587b6);
+            
+        
+
+        circle_marker_37682f37d8476b300310e0cdfc09575e.bindPopup(popup_61e89e50e46d40e2547af36eb6d680eb)
+        ;
+
+        
+    
+    
+            var circle_marker_75779cab100b8e64a0c9c141a9583516 = L.circleMarker(
+                [41.14557, -8.6127],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_5384d3b24e20694638636c818ad04f21 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c9353c8ad958cfc86379d9998301e52c = $(`<div id="html_c9353c8ad958cfc86379d9998301e52c" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>BOMBARDA Room</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>210</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>36.0</span></p>         </div>`)[0];
+                popup_5384d3b24e20694638636c818ad04f21.setContent(html_c9353c8ad958cfc86379d9998301e52c);
+            
+        
+
+        circle_marker_75779cab100b8e64a0c9c141a9583516.bindPopup(popup_5384d3b24e20694638636c818ad04f21)
+        ;
+
+        
+    
+    
+            var circle_marker_9f24f0634e71b8c1b276edfd5e063c5a = L.circleMarker(
+                [41.35459, -8.44815],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_64a35d188a998d4dc07730e55c407b29 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a2d66e0b07ccacab5bf4fceb4eba8348 = $(`<div id="html_a2d66e0b07ccacab5bf4fceb4eba8348" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Santo Tirso Holiday Home</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>55.0</span></p>         </div>`)[0];
+                popup_64a35d188a998d4dc07730e55c407b29.setContent(html_a2d66e0b07ccacab5bf4fceb4eba8348);
+            
+        
+
+        circle_marker_9f24f0634e71b8c1b276edfd5e063c5a.bindPopup(popup_64a35d188a998d4dc07730e55c407b29)
+        ;
+
+        
+    
+    
+            var circle_marker_15c0d6bf217b5dc83c2640e65ba2d679 = L.circleMarker(
+                [41.1541, -8.59097],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_a58e650231348349f79963cc5917c389 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1df96817d08d711e2d35824887e82f36 = $(`<div id="html_1df96817d08d711e2d35824887e82f36" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>B & B  Room Yoga Garden's Place</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>391</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>25.0</span></p>         </div>`)[0];
+                popup_a58e650231348349f79963cc5917c389.setContent(html_1df96817d08d711e2d35824887e82f36);
+            
+        
+
+        circle_marker_15c0d6bf217b5dc83c2640e65ba2d679.bindPopup(popup_a58e650231348349f79963cc5917c389)
+        ;
+
+        
+    
+    
+            var circle_marker_a3b82c106284355626a2ae8d4f96bce4 = L.circleMarker(
+                [41.15309, -8.61479],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_e2f1137020ce5b4f450042bc6b8f93d0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8beec0495ba3507a784419e5c23b139a = $(`<div id="html_8beec0495ba3507a784419e5c23b139a" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Bragas House - Porto Center 2C</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>73</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>32.0</span></p>         </div>`)[0];
+                popup_e2f1137020ce5b4f450042bc6b8f93d0.setContent(html_8beec0495ba3507a784419e5c23b139a);
+            
+        
+
+        circle_marker_a3b82c106284355626a2ae8d4f96bce4.bindPopup(popup_e2f1137020ce5b4f450042bc6b8f93d0)
+        ;
+
+        
+    
+    
+            var circle_marker_7763cfa7ce0597d891e308cfa7d976f3 = L.circleMarker(
+                [41.1582, -8.6187],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_9aa0f6992f7ee208ec1d96009bb5179d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_35ed4269210600357eb95a3f62ff5cce = $(`<div id="html_35ed4269210600357eb95a3f62ff5cce" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Rumo</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>46</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>17.0</span></p>         </div>`)[0];
+                popup_9aa0f6992f7ee208ec1d96009bb5179d.setContent(html_35ed4269210600357eb95a3f62ff5cce);
+            
+        
+
+        circle_marker_7763cfa7ce0597d891e308cfa7d976f3.bindPopup(popup_9aa0f6992f7ee208ec1d96009bb5179d)
+        ;
+
+        
+    
+    
+            var circle_marker_93cf9eb125142ab986bc6a4800891d5b = L.circleMarker(
+                [41.13442, -8.60844],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_d48944b8c9cd120170c52a010505de51 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_10de927c15205fa8658d1d9e1dd6af45 = $(`<div id="html_10de927c15205fa8658d1d9e1dd6af45" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>The Porto Concierge - White Dove</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>47</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>60.0</span></p>         </div>`)[0];
+                popup_d48944b8c9cd120170c52a010505de51.setContent(html_10de927c15205fa8658d1d9e1dd6af45);
+            
+        
+
+        circle_marker_93cf9eb125142ab986bc6a4800891d5b.bindPopup(popup_d48944b8c9cd120170c52a010505de51)
+        ;
+
+        
+    
+    
+            var circle_marker_2aaedd4e9ee610f874d3ed5f58f645d8 = L.circleMarker(
+                [41.18075, -8.63082],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_6a342be6c0018dfffb68f6dec9ee76ed = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_dba9a03d67292a168c77b45e649981b4 = $(`<div id="html_dba9a03d67292a168c77b45e649981b4" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Monte dos Burgos - Cosy Room</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>5</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>26.0</span></p>         </div>`)[0];
+                popup_6a342be6c0018dfffb68f6dec9ee76ed.setContent(html_dba9a03d67292a168c77b45e649981b4);
+            
+        
+
+        circle_marker_2aaedd4e9ee610f874d3ed5f58f645d8.bindPopup(popup_6a342be6c0018dfffb68f6dec9ee76ed)
+        ;
+
+        
+    
+    
+            var circle_marker_0e7667593a5367a4a4abb324c9820a62 = L.circleMarker(
+                [41.15779, -8.58458],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_061ba3d71b05478b371deed2cca62ddb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_511b9df45b07e512e0903a52838e0244 = $(`<div id="html_511b9df45b07e512e0903a52838e0244" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Oporto Charming Townhouse - ﾒﾄﾛ100m</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>16</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>80.0</span></p>         </div>`)[0];
+                popup_061ba3d71b05478b371deed2cca62ddb.setContent(html_511b9df45b07e512e0903a52838e0244);
+            
+        
+
+        circle_marker_0e7667593a5367a4a4abb324c9820a62.bindPopup(popup_061ba3d71b05478b371deed2cca62ddb)
+        ;
+
+        
+    
+    
+            var circle_marker_f4040c09e0df4a9060f8c27a839c0021 = L.circleMarker(
+                [41.15099, -8.66959],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_d74dce5b6690af63da7b7a78dbde22ea = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b0e3f715ed99cb9c51b3eb7d35276b26 = $(`<div id="html_b0e3f715ed99cb9c51b3eb7d35276b26" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Casa Alegre Happy House</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.5</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>16</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>45.0</span></p>         </div>`)[0];
+                popup_d74dce5b6690af63da7b7a78dbde22ea.setContent(html_b0e3f715ed99cb9c51b3eb7d35276b26);
+            
+        
+
+        circle_marker_f4040c09e0df4a9060f8c27a839c0021.bindPopup(popup_d74dce5b6690af63da7b7a78dbde22ea)
+        ;
+
+        
+    
+    
+            var circle_marker_374a4200aa57cfedf783f9d37287a969 = L.circleMarker(
+                [41.15337, -8.67515],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_261054bdc2fcc7c058cc42464b48e731 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_099c0c58a7809e10b05bd3df4934adf8 = $(`<div id="html_099c0c58a7809e10b05bd3df4934adf8" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Double Bedroom with Ensuite & Balcony + Kids Room</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.5</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>120.0</span></p>         </div>`)[0];
+                popup_261054bdc2fcc7c058cc42464b48e731.setContent(html_099c0c58a7809e10b05bd3df4934adf8);
+            
+        
+
+        circle_marker_374a4200aa57cfedf783f9d37287a969.bindPopup(popup_261054bdc2fcc7c058cc42464b48e731)
+        ;
+
+        
+    
+    
+            var circle_marker_0d04a04b72f56694fe4f24cea5c32f4a = L.circleMarker(
+                [41.14974, -8.60525],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_e141c213a02861fc9a7be8e4d60fad6a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fd8bafe90766b111d418e35e910db684 = $(`<div id="html_fd8bafe90766b111d418e35e910db684" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>SANTA CATARINA HOUSE</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>221</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>69.0</span></p>         </div>`)[0];
+                popup_e141c213a02861fc9a7be8e4d60fad6a.setContent(html_fd8bafe90766b111d418e35e910db684);
+            
+        
+
+        circle_marker_0d04a04b72f56694fe4f24cea5c32f4a.bindPopup(popup_e141c213a02861fc9a7be8e4d60fad6a)
+        ;
+
+        
+    
+    
+            var circle_marker_4819444056d8df7c2440d4fe1987ab86 = L.circleMarker(
+                [41.15543, -8.58926],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_c2c60288d3302f071a0c53fe95adf0d1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_15f602cdb99a8161c9296f9b606f7c2f = $(`<div id="html_15f602cdb99a8161c9296f9b606f7c2f" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Studio WBwGG</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>59</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>35.0</span></p>         </div>`)[0];
+                popup_c2c60288d3302f071a0c53fe95adf0d1.setContent(html_15f602cdb99a8161c9296f9b606f7c2f);
+            
+        
+
+        circle_marker_4819444056d8df7c2440d4fe1987ab86.bindPopup(popup_c2c60288d3302f071a0c53fe95adf0d1)
+        ;
+
+        
+    
+    
+            var circle_marker_b61ee74dbe4b27b389a1d65d63b235bc = L.circleMarker(
+                [41.16119, -8.60725],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_88cc35e88ad7c21078f0d813f467f9a5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b84a7d16171112eafb6cf90e18c843e3 = $(`<div id="html_b84a7d16171112eafb6cf90e18c843e3" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>The Porto Concierge - Marques House | 402</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>50.0</span></p>         </div>`)[0];
+                popup_88cc35e88ad7c21078f0d813f467f9a5.setContent(html_b84a7d16171112eafb6cf90e18c843e3);
+            
+        
+
+        circle_marker_b61ee74dbe4b27b389a1d65d63b235bc.bindPopup(popup_88cc35e88ad7c21078f0d813f467f9a5)
+        ;
+
+        
+    
+    
+            var circle_marker_dc8cacb53675aed0b7149fc0eb644e5a = L.circleMarker(
+                [41.41101, -8.63503],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_5ee4e52ac3a662b2b4d143912d7688ff = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_986775543804a942edee2141d550c3d6 = $(`<div id="html_986775543804a942edee2141d550c3d6" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Aluguer Quarto "2" (Casa) Balasar, Póvoa de Varzim</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>21</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>20.0</span></p>         </div>`)[0];
+                popup_5ee4e52ac3a662b2b4d143912d7688ff.setContent(html_986775543804a942edee2141d550c3d6);
+            
+        
+
+        circle_marker_dc8cacb53675aed0b7149fc0eb644e5a.bindPopup(popup_5ee4e52ac3a662b2b4d143912d7688ff)
+        ;
+
+        
+    
+    
+            var circle_marker_1db36af29bc334367e3bf225090cd479 = L.circleMarker(
+                [41.1562, -8.61875],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_a11cdda122a13e037a5f6475715aaad1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a00f14918aafe75a4508d052342f2176 = $(`<div id="html_a00f14918aafe75a4508d052342f2176" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Opimo</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>51</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>21.0</span></p>         </div>`)[0];
+                popup_a11cdda122a13e037a5f6475715aaad1.setContent(html_a00f14918aafe75a4508d052342f2176);
+            
+        
+
+        circle_marker_1db36af29bc334367e3bf225090cd479.bindPopup(popup_a11cdda122a13e037a5f6475715aaad1)
+        ;
+
+        
+    
+    
+            var circle_marker_e25b434027c6acbf58ca0ee94827dc76 = L.circleMarker(
+                [41.13593, -8.56464],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_e4a6c5048679cb6a9a3e9e4221764d00 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0848f9cc60a04ab50801923c17eeecd1 = $(`<div id="html_0848f9cc60a04ab50801923c17eeecd1" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Casa acolhedora, 2 minutos do rio douro</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>79</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>31.0</span></p>         </div>`)[0];
+                popup_e4a6c5048679cb6a9a3e9e4221764d00.setContent(html_0848f9cc60a04ab50801923c17eeecd1);
+            
+        
+
+        circle_marker_e25b434027c6acbf58ca0ee94827dc76.bindPopup(popup_e4a6c5048679cb6a9a3e9e4221764d00)
+        ;
+
+        
+    
+    
+            var circle_marker_02683141933d2c36ccd898393e7039a7 = L.circleMarker(
+                [41.15624, -8.59597],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_6263e352b17b6c279146e53bdeaca111 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b5e08092297d4a00fcd3673ffdd5828d = $(`<div id="html_b5e08092297d4a00fcd3673ffdd5828d" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>5 Room Villa in Oporto Center</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>160.0</span></p>         </div>`)[0];
+                popup_6263e352b17b6c279146e53bdeaca111.setContent(html_b5e08092297d4a00fcd3673ffdd5828d);
+            
+        
+
+        circle_marker_02683141933d2c36ccd898393e7039a7.bindPopup(popup_6263e352b17b6c279146e53bdeaca111)
+        ;
+
+        
+    
+    
+            var circle_marker_303235a7d48cbba29aaee4f4ef7f2580 = L.circleMarker(
+                [41.1222, -8.44398],
+                {"bubblingMouseEvents": true, "color": "#96d268", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#96d268", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_81bbba4c88aeaa25f5764ae78083745c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_94930c800c986487b077a035bbe6f601 = $(`<div id="html_94930c800c986487b077a035bbe6f601" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>The Porto Concierge -  Lodeiro Country House</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>7.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>10</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>300.0</span></p>         </div>`)[0];
+                popup_81bbba4c88aeaa25f5764ae78083745c.setContent(html_94930c800c986487b077a035bbe6f601);
+            
+        
+
+        circle_marker_303235a7d48cbba29aaee4f4ef7f2580.bindPopup(popup_81bbba4c88aeaa25f5764ae78083745c)
+        ;
+
+        
+    
+    
+            var circle_marker_9414a432c50f3c23fba148fbe106295c = L.circleMarker(
+                [41.25794, -8.66436],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_cf98a08b66abcd7afa5fb9f1e3b1e4e7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9387dc3e0a2f06a9ea2f9db963a75cf2 = $(`<div id="html_9387dc3e0a2f06a9ea2f9db963a75cf2" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Comfortable bedroom close to the airport - Porto</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>120</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>35.0</span></p>         </div>`)[0];
+                popup_cf98a08b66abcd7afa5fb9f1e3b1e4e7.setContent(html_9387dc3e0a2f06a9ea2f9db963a75cf2);
+            
+        
+
+        circle_marker_9414a432c50f3c23fba148fbe106295c.bindPopup(popup_cf98a08b66abcd7afa5fb9f1e3b1e4e7)
+        ;
+
+        
+    
+    
+            var circle_marker_5fbed8b558344e5eed755cccd93350c3 = L.circleMarker(
+                [41.15864, -8.60886],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_692232715a8cd45f1e2818af7c6f39d5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e50f428567e4771e3624350a92e52966 = $(`<div id="html_e50f428567e4771e3624350a92e52966" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>22 Oporto Guesthouse Cordoaria</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>1</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>98.0</span></p>         </div>`)[0];
+                popup_692232715a8cd45f1e2818af7c6f39d5.setContent(html_e50f428567e4771e3624350a92e52966);
+            
+        
+
+        circle_marker_5fbed8b558344e5eed755cccd93350c3.bindPopup(popup_692232715a8cd45f1e2818af7c6f39d5)
+        ;
+
+        
+    
+    
+            var circle_marker_91d8fb0f0be94204e2645ec083a126f0 = L.circleMarker(
+                [40.91385, -8.54816],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_97292ae1e3369c3084c37c74185413c5 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_cd1c65fa0d436218fb72f6ba647d20b9 = $(`<div id="html_cd1c65fa0d436218fb72f6ba647d20b9" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Alojamento tranquilo perto do Castelo</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>22</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>30.0</span></p>         </div>`)[0];
+                popup_97292ae1e3369c3084c37c74185413c5.setContent(html_cd1c65fa0d436218fb72f6ba647d20b9);
+            
+        
+
+        circle_marker_91d8fb0f0be94204e2645ec083a126f0.bindPopup(popup_97292ae1e3369c3084c37c74185413c5)
+        ;
+
+        
+    
+    
+            var circle_marker_4d1c93d797d4048e63fea48c8e1e931c = L.circleMarker(
+                [40.95377, -8.55065],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_0d625b9d0f748710b1288f4e72fd5596 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e93be216fb49e9d7d3c1abf697296e66 = $(`<div id="html_e93be216fb49e9d7d3c1abf697296e66" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>House Near Espinho/Santa Maria Feira</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>30.0</span></p>         </div>`)[0];
+                popup_0d625b9d0f748710b1288f4e72fd5596.setContent(html_e93be216fb49e9d7d3c1abf697296e66);
+            
+        
+
+        circle_marker_4d1c93d797d4048e63fea48c8e1e931c.bindPopup(popup_0d625b9d0f748710b1288f4e72fd5596)
+        ;
+
+        
+    
+    
+            var circle_marker_25fc68cdea6d0017c06e5ec0d2e2f24e = L.circleMarker(
+                [41.1839, -8.61083],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_72abe1f76d84df3979ffb08ab67633a9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c6ab758d255c02a782c6c400a942e3a2 = $(`<div id="html_c6ab758d255c02a782c6c400a942e3a2" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Single Room Near the City Centre</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>17</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>17.0</span></p>         </div>`)[0];
+                popup_72abe1f76d84df3979ffb08ab67633a9.setContent(html_c6ab758d255c02a782c6c400a942e3a2);
+            
+        
+
+        circle_marker_25fc68cdea6d0017c06e5ec0d2e2f24e.bindPopup(popup_72abe1f76d84df3979ffb08ab67633a9)
+        ;
+
+        
+    
+    
+            var circle_marker_be46a9594c18a0f4692b14905fffa683 = L.circleMarker(
+                [41.16556, -8.61735],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_00555b761b1fc3df98ae01b493eb5cc9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e5988787a75a707895e27e61a8d0c1c2 = $(`<div id="html_e5988787a75a707895e27e61a8d0c1c2" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Varanda Porto</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>39.0</span></p>         </div>`)[0];
+                popup_00555b761b1fc3df98ae01b493eb5cc9.setContent(html_e5988787a75a707895e27e61a8d0c1c2);
+            
+        
+
+        circle_marker_be46a9594c18a0f4692b14905fffa683.bindPopup(popup_00555b761b1fc3df98ae01b493eb5cc9)
+        ;
+
+        
+    
+    
+            var circle_marker_dca290165d4db8cb27d4af40781d86e4 = L.circleMarker(
+                [41.3398, -8.7383],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_be6660255a7004038ecc61067d89fa21 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_af023940869c9a1ecfa0cb0462d3ad80 = $(`<div id="html_af023940869c9a1ecfa0cb0462d3ad80" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Azur Lodge and Beach House</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>90.0</span></p>         </div>`)[0];
+                popup_be6660255a7004038ecc61067d89fa21.setContent(html_af023940869c9a1ecfa0cb0462d3ad80);
+            
+        
+
+        circle_marker_dca290165d4db8cb27d4af40781d86e4.bindPopup(popup_be6660255a7004038ecc61067d89fa21)
+        ;
+
+        
+    
+    
+            var circle_marker_9f1159b8ed24eee88f4c74970aaabb94 = L.circleMarker(
+                [41.15615, -8.61051],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_ad236bec57e1c5bb4d7f411598da9948 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b50c431813f5438da1fc3603f44f5c86 = $(`<div id="html_b50c431813f5438da1fc3603f44f5c86" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>House for Friends in Porto Downtown - Bedroom 4</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>25.0</span></p>         </div>`)[0];
+                popup_ad236bec57e1c5bb4d7f411598da9948.setContent(html_b50c431813f5438da1fc3603f44f5c86);
+            
+        
+
+        circle_marker_9f1159b8ed24eee88f4c74970aaabb94.bindPopup(popup_ad236bec57e1c5bb4d7f411598da9948)
+        ;
+
+        
+    
+    
+            var circle_marker_a9992b3dcaf282ae6c8719d2a74f23fb = L.circleMarker(
+                [41.16774, -8.66703],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_0fd6d6772d110bc1487a5244a85bc0f7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9913ff2659c2cb7701f394eb13a9a1f4 = $(`<div id="html_9913ff2659c2cb7701f394eb13a9a1f4" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Villa Porto - New!</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>1</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>255.0</span></p>         </div>`)[0];
+                popup_0fd6d6772d110bc1487a5244a85bc0f7.setContent(html_9913ff2659c2cb7701f394eb13a9a1f4);
+            
+        
+
+        circle_marker_a9992b3dcaf282ae6c8719d2a74f23fb.bindPopup(popup_0fd6d6772d110bc1487a5244a85bc0f7)
+        ;
+
+        
+    
+    
+            var circle_marker_bc56a4601af7ab7c3b3058916983c626 = L.circleMarker(
+                [41.14798, -8.59836],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_64003fdc3c13e49e94404e2b1e1357bf = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_39cdf3c3512b807072924e8c793da5f4 = $(`<div id="html_39cdf3c3512b807072924e8c793da5f4" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Pause_Oporto</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>31</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>80.0</span></p>         </div>`)[0];
+                popup_64003fdc3c13e49e94404e2b1e1357bf.setContent(html_39cdf3c3512b807072924e8c793da5f4);
+            
+        
+
+        circle_marker_bc56a4601af7ab7c3b3058916983c626.bindPopup(popup_64003fdc3c13e49e94404e2b1e1357bf)
+        ;
+
+        
+    
+    
+            var circle_marker_1159becef97a621b68059726afc24534 = L.circleMarker(
+                [41.15297, -8.67456],
+                {"bubblingMouseEvents": true, "color": "#9dd569", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9dd569", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_79fb4803e4a8a49aef46943ab9443d17 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9acab2cb48935774f79a238f83ac0e6d = $(`<div id="html_9acab2cb48935774f79a238f83ac0e6d" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Gallery Seaside House at Porto</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>7.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>4</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>114.0</span></p>         </div>`)[0];
+                popup_79fb4803e4a8a49aef46943ab9443d17.setContent(html_9acab2cb48935774f79a238f83ac0e6d);
+            
+        
+
+        circle_marker_1159becef97a621b68059726afc24534.bindPopup(popup_79fb4803e4a8a49aef46943ab9443d17)
+        ;
+
+        
+    
+    
+            var circle_marker_998f9221cdf41673d5f95ca74b029159 = L.circleMarker(
+                [41.14476, -8.60069],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_d8e45de4295d70bf2ffda17b2f4c016b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1b6579a5d50a0e9063263264b0110970 = $(`<div id="html_1b6579a5d50a0e9063263264b0110970" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>3 bed room</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.5</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>28</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>30.0</span></p>         </div>`)[0];
+                popup_d8e45de4295d70bf2ffda17b2f4c016b.setContent(html_1b6579a5d50a0e9063263264b0110970);
+            
+        
+
+        circle_marker_998f9221cdf41673d5f95ca74b029159.bindPopup(popup_d8e45de4295d70bf2ffda17b2f4c016b)
+        ;
+
+        
+    
+    
+            var circle_marker_4a7aba84c4bb28321cc6f1dc472d19c1 = L.circleMarker(
+                [41.20109, -8.64083],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_0438cb5182725ba82a17fe1b2296c4f2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_bbc6c146c4c07d12469cfc54f84ba27c = $(`<div id="html_bbc6c146c4c07d12469cfc54f84ba27c" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Quarto 1 do AL Hostel D.ª Jucunda</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>16</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>12.0</span></p>         </div>`)[0];
+                popup_0438cb5182725ba82a17fe1b2296c4f2.setContent(html_bbc6c146c4c07d12469cfc54f84ba27c);
+            
+        
+
+        circle_marker_4a7aba84c4bb28321cc6f1dc472d19c1.bindPopup(popup_0438cb5182725ba82a17fe1b2296c4f2)
+        ;
+
+        
+    
+    
+            var circle_marker_9da954dbacf3c01f2e0ea13e6a129b16 = L.circleMarker(
+                [41.15974, -8.60737],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_9a8ed8369383591cde9513d541f5000f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2c433032cfe5d7b742465deacd19e428 = $(`<div id="html_2c433032cfe5d7b742465deacd19e428" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Ruby Charm Houses 7</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>50.0</span></p>         </div>`)[0];
+                popup_9a8ed8369383591cde9513d541f5000f.setContent(html_2c433032cfe5d7b742465deacd19e428);
+            
+        
+
+        circle_marker_9da954dbacf3c01f2e0ea13e6a129b16.bindPopup(popup_9a8ed8369383591cde9513d541f5000f)
+        ;
+
+        
+    
+    
+            var circle_marker_6a87342015f0eb3750158aa2513204ac = L.circleMarker(
+                [41.12383, -8.6206],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_f02a166f8e5f0a1f22af3c88e99b8ff9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_202a4d73071cc3efdddf9ef3ee170681 = $(`<div id="html_202a4d73071cc3efdddf9ef3ee170681" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>ANITAHOUSE</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>23</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>70.0</span></p>         </div>`)[0];
+                popup_f02a166f8e5f0a1f22af3c88e99b8ff9.setContent(html_202a4d73071cc3efdddf9ef3ee170681);
+            
+        
+
+        circle_marker_6a87342015f0eb3750158aa2513204ac.bindPopup(popup_f02a166f8e5f0a1f22af3c88e99b8ff9)
+        ;
+
+        
+    
+    
+            var circle_marker_727de0e921856aed0fa7851239c53ad8 = L.circleMarker(
+                [41.13317, -8.599],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_f5831c171a795257cf5ae75104c0b3de = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2ee98ad9ff425f3f7e24dd1ad57e33ae = $(`<div id="html_2ee98ad9ff425f3f7e24dd1ad57e33ae" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Modest House</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>30</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>55.0</span></p>         </div>`)[0];
+                popup_f5831c171a795257cf5ae75104c0b3de.setContent(html_2ee98ad9ff425f3f7e24dd1ad57e33ae);
+            
+        
+
+        circle_marker_727de0e921856aed0fa7851239c53ad8.bindPopup(popup_f5831c171a795257cf5ae75104c0b3de)
+        ;
+
+        
+    
+    
+            var circle_marker_ba81d46a05712b178418d8dc53e6fe0a = L.circleMarker(
+                [40.80005, -8.33777],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_dca5b86467dc83271f9f8d9d915a4ed0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_08ba732442ee67751c9886f96fa20ef8 = $(`<div id="html_08ba732442ee67751c9886f96fa20ef8" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Quinta Adágio</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>9</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>99.0</span></p>         </div>`)[0];
+                popup_dca5b86467dc83271f9f8d9d915a4ed0.setContent(html_08ba732442ee67751c9886f96fa20ef8);
+            
+        
+
+        circle_marker_ba81d46a05712b178418d8dc53e6fe0a.bindPopup(popup_dca5b86467dc83271f9f8d9d915a4ed0)
+        ;
+
+        
+    
+    
+            var circle_marker_872ea7be4736776c0bc24f8610d8ac56 = L.circleMarker(
+                [41.16029, -8.60027],
+                {"bubblingMouseEvents": true, "color": "#6ec064", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6ec064", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_7d7eec3e1673630beee7c4d199507823 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_feee94259085cd1a91ed744be0beed4c = $(`<div id="html_feee94259085cd1a91ed744be0beed4c" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Sixties Guest House 4</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>8.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>26</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>35.0</span></p>         </div>`)[0];
+                popup_7d7eec3e1673630beee7c4d199507823.setContent(html_feee94259085cd1a91ed744be0beed4c);
+            
+        
+
+        circle_marker_872ea7be4736776c0bc24f8610d8ac56.bindPopup(popup_7d7eec3e1673630beee7c4d199507823)
+        ;
+
+        
+    
+    
+            var circle_marker_5e9418104ca30352e7a7541538c95253 = L.circleMarker(
+                [41.14555, -8.60233],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_e3ff9725098c5aa441063d824d5fdcab = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a86407f03e85174976fc8158f360332d = $(`<div id="html_a86407f03e85174976fc8158f360332d" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Casa da Ponte - Fontainhas Duplex</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>44</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>65.0</span></p>         </div>`)[0];
+                popup_e3ff9725098c5aa441063d824d5fdcab.setContent(html_a86407f03e85174976fc8158f360332d);
+            
+        
+
+        circle_marker_5e9418104ca30352e7a7541538c95253.bindPopup(popup_e3ff9725098c5aa441063d824d5fdcab)
+        ;
+
+        
+    
+    
+            var circle_marker_6f76efb99eee5fb194de3555f52e67c3 = L.circleMarker(
+                [41.27715, -8.72207],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_2af53053327b3c96c91fe00739492c2e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e24f8d763d5dfc7b8d9381571a9c6ed2 = $(`<div id="html_e24f8d763d5dfc7b8d9381571a9c6ed2" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Villa 200m2, 10 mn de Porto  , 150m de la plage</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>10</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>180.0</span></p>         </div>`)[0];
+                popup_2af53053327b3c96c91fe00739492c2e.setContent(html_e24f8d763d5dfc7b8d9381571a9c6ed2);
+            
+        
+
+        circle_marker_6f76efb99eee5fb194de3555f52e67c3.bindPopup(popup_2af53053327b3c96c91fe00739492c2e)
+        ;
+
+        
+    
+    
+            var circle_marker_7ddff9b4e3c1c479d29f37f49c59794f = L.circleMarker(
+                [41.06131, -8.45309],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_62cc450c4d6a6f3f0a02963bccb3cd8b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_405ddba01f2415ddccd01ae2d2dce259 = $(`<div id="html_405ddba01f2415ddccd01ae2d2dce259" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Casa do Pombal</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>300.0</span></p>         </div>`)[0];
+                popup_62cc450c4d6a6f3f0a02963bccb3cd8b.setContent(html_405ddba01f2415ddccd01ae2d2dce259);
+            
+        
+
+        circle_marker_7ddff9b4e3c1c479d29f37f49c59794f.bindPopup(popup_62cc450c4d6a6f3f0a02963bccb3cd8b)
+        ;
+
+        
+    
+    
+            var circle_marker_672f45aec0ede2aea2ffc86a64469b65 = L.circleMarker(
+                [41.15544, -8.62063],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_aa24de804848707cca331a053f32d1bb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_02fce79c1a66e23e5701472b73246247 = $(`<div id="html_02fce79c1a66e23e5701472b73246247" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>tripleRoomprivate</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>40.0</span></p>         </div>`)[0];
+                popup_aa24de804848707cca331a053f32d1bb.setContent(html_02fce79c1a66e23e5701472b73246247);
+            
+        
+
+        circle_marker_672f45aec0ede2aea2ffc86a64469b65.bindPopup(popup_aa24de804848707cca331a053f32d1bb)
+        ;
+
+        
+    
+    
+            var circle_marker_8a56bd8d34353c84c6b0c4116700a206 = L.circleMarker(
+                [41.17727, -8.5879],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_72dfc6c0bba9f222082e6bad0c36290f = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4ae220ad7ec450803ba8e66c43f887a1 = $(`<div id="html_4ae220ad7ec450803ba8e66c43f887a1" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Apartment with 3 terraces in Porto</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>1</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>100.0</span></p>         </div>`)[0];
+                popup_72dfc6c0bba9f222082e6bad0c36290f.setContent(html_4ae220ad7ec450803ba8e66c43f887a1);
+            
+        
+
+        circle_marker_8a56bd8d34353c84c6b0c4116700a206.bindPopup(popup_72dfc6c0bba9f222082e6bad0c36290f)
+        ;
+
+        
+    
+    
+            var circle_marker_0a7b35ec1b1676833d4a75b7fa74c7c4 = L.circleMarker(
+                [41.17057, -8.60646],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_b1731a3050e6601d0de85272bd20eaee = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6a8e4a938fdd89ffdadd112e90b00fef = $(`<div id="html_6a8e4a938fdd89ffdadd112e90b00fef" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Moradia Igreja de Paranhos - 2</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>14.0</span></p>         </div>`)[0];
+                popup_b1731a3050e6601d0de85272bd20eaee.setContent(html_6a8e4a938fdd89ffdadd112e90b00fef);
+            
+        
+
+        circle_marker_0a7b35ec1b1676833d4a75b7fa74c7c4.bindPopup(popup_b1731a3050e6601d0de85272bd20eaee)
+        ;
+
+        
+    
+    
+            var circle_marker_7331b1d955b9089822f5453bf0c9803f = L.circleMarker(
+                [41.30549, -8.73177],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_d63a9935eecb01a494adc975c3077552 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_eac979d2e9c9ce799bb17040c7cc0687 = $(`<div id="html_eac979d2e9c9ce799bb17040c7cc0687" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Private House Mindelo</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>4</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>195.0</span></p>         </div>`)[0];
+                popup_d63a9935eecb01a494adc975c3077552.setContent(html_eac979d2e9c9ce799bb17040c7cc0687);
+            
+        
+
+        circle_marker_7331b1d955b9089822f5453bf0c9803f.bindPopup(popup_d63a9935eecb01a494adc975c3077552)
+        ;
+
+        
+    
+    
+            var circle_marker_369865d2227ab87c9441907ebbe39166 = L.circleMarker(
+                [41.00966, -8.50928],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_a9d2d18172aaf1122e4f464dd966f978 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c547325db83f9c34e54efa206e58d6df = $(`<div id="html_c547325db83f9c34e54efa206e58d6df" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Quarto moradia luxo</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>2.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>1</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>13.0</span></p>         </div>`)[0];
+                popup_a9d2d18172aaf1122e4f464dd966f978.setContent(html_c547325db83f9c34e54efa206e58d6df);
+            
+        
+
+        circle_marker_369865d2227ab87c9441907ebbe39166.bindPopup(popup_a9d2d18172aaf1122e4f464dd966f978)
+        ;
+
+        
+    
+    
+            var circle_marker_692544144967d87cb480e8744f02b3ee = L.circleMarker(
+                [41.16127, -8.62724],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_13c71f8ca4ab6f680310c0f5d744ba4d = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a9bccbb16b93c904533bb5dcb1bd0158 = $(`<div id="html_a9bccbb16b93c904533bb5dcb1bd0158" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Elegant Boavista</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>15</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>80.0</span></p>         </div>`)[0];
+                popup_13c71f8ca4ab6f680310c0f5d744ba4d.setContent(html_a9bccbb16b93c904533bb5dcb1bd0158);
+            
+        
+
+        circle_marker_692544144967d87cb480e8744f02b3ee.bindPopup(popup_13c71f8ca4ab6f680310c0f5d744ba4d)
+        ;
+
+        
+    
+    
+            var circle_marker_65e4275614ebb674b2c86fbeb620150a = L.circleMarker(
+                [41.12988, -8.6045],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_1ffc1b906b6121b1660ddcd00d05faa1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c447580f49cee1a0774bb655c49c4eea = $(`<div id="html_c447580f49cee1a0774bb655c49c4eea" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Gaia Garden Houses 427</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>17</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>130.0</span></p>         </div>`)[0];
+                popup_1ffc1b906b6121b1660ddcd00d05faa1.setContent(html_c447580f49cee1a0774bb655c49c4eea);
+            
+        
+
+        circle_marker_65e4275614ebb674b2c86fbeb620150a.bindPopup(popup_1ffc1b906b6121b1660ddcd00d05faa1)
+        ;
+
+        
+    
+    
+            var circle_marker_bd29eaa421fa4b7c116f660e5c76391d = L.circleMarker(
+                [41.15149, -8.67255],
+                {"bubblingMouseEvents": true, "color": "#097940", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#097940", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_393f017b5ff46299e6123c863e35f732 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_095d980274da41f279b44ec345a601c3 = $(`<div id="html_095d980274da41f279b44ec345a601c3" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Cosy 2 bedroom apartment at Foz old town</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.7</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>85.0</span></p>         </div>`)[0];
+                popup_393f017b5ff46299e6123c863e35f732.setContent(html_095d980274da41f279b44ec345a601c3);
+            
+        
+
+        circle_marker_bd29eaa421fa4b7c116f660e5c76391d.bindPopup(popup_393f017b5ff46299e6123c863e35f732)
+        ;
+
+        
+    
+    
+            var circle_marker_6cd6d42eac6f550f9e8997689951c272 = L.circleMarker(
+                [41.18632, -8.4503],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_0e56e281d46f88e239ed3f1cc102c4df = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_006361150fe8f856428d517c6e35c3c3 = $(`<div id="html_006361150fe8f856428d517c6e35c3c3" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Shiny Cottage</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>13.0</span></p>         </div>`)[0];
+                popup_0e56e281d46f88e239ed3f1cc102c4df.setContent(html_006361150fe8f856428d517c6e35c3c3);
+            
+        
+
+        circle_marker_6cd6d42eac6f550f9e8997689951c272.bindPopup(popup_0e56e281d46f88e239ed3f1cc102c4df)
+        ;
+
+        
+    
+    
+            var circle_marker_5b15891dd73a57ed6c345413d7519409 = L.circleMarker(
+                [41.1501, -8.65229],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_5c2db9f258e3480027e4a72465436e86 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fff813a7b7ae6d10b010238ac7c72a96 = $(`<div id="html_fff813a7b7ae6d10b010238ac7c72a96" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>House  River,Garden &Sunset</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>10.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>52.0</span></p>         </div>`)[0];
+                popup_5c2db9f258e3480027e4a72465436e86.setContent(html_fff813a7b7ae6d10b010238ac7c72a96);
+            
+        
+
+        circle_marker_5b15891dd73a57ed6c345413d7519409.bindPopup(popup_5c2db9f258e3480027e4a72465436e86)
+        ;
+
+        
+    
+    
+            var circle_marker_87b11dea47ad679dbf7e8790c7977ac2 = L.circleMarker(
+                [41.16228, -8.61354],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_1dcd1f3bbe3df7639715433e4402efff = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8b93d58ee88577465d7174a71fa3ea35 = $(`<div id="html_8b93d58ee88577465d7174a71fa3ea35" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>NAYA - Downtown Guesthouse - Suite Timor</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>80.0</span></p>         </div>`)[0];
+                popup_1dcd1f3bbe3df7639715433e4402efff.setContent(html_8b93d58ee88577465d7174a71fa3ea35);
+            
+        
+
+        circle_marker_87b11dea47ad679dbf7e8790c7977ac2.bindPopup(popup_1dcd1f3bbe3df7639715433e4402efff)
+        ;
+
+        
+    
+    
+            var circle_marker_5c5d1c43a866ed84ad57be1b7c885faa = L.circleMarker(
+                [41.14905, -8.61746],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_2bc1dd60151a1d5404510b8232356d88 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_834eff912c739ec6641795cf7b67e93f = $(`<div id="html_834eff912c739ec6641795cf7b67e93f" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Home17 - R2</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>17</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>65.0</span></p>         </div>`)[0];
+                popup_2bc1dd60151a1d5404510b8232356d88.setContent(html_834eff912c739ec6641795cf7b67e93f);
+            
+        
+
+        circle_marker_5c5d1c43a866ed84ad57be1b7c885faa.bindPopup(popup_2bc1dd60151a1d5404510b8232356d88)
+        ;
+
+        
+    
+    
+            var circle_marker_c214a81456753025f3e615e19935f412 = L.circleMarker(
+                [41.07471, -8.41225],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_ad7443381968e6ef0e3afab983b3a504 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3b1ea811264baf072a47065e60329036 = $(`<div id="html_3b1ea811264baf072a47065e60329036" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Holiday Villa - Casa do Sobreiro</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>61</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>150.0</span></p>         </div>`)[0];
+                popup_ad7443381968e6ef0e3afab983b3a504.setContent(html_3b1ea811264baf072a47065e60329036);
+            
+        
+
+        circle_marker_c214a81456753025f3e615e19935f412.bindPopup(popup_ad7443381968e6ef0e3afab983b3a504)
+        ;
+
+        
+    
+    
+            var circle_marker_fdc9cda88d8a95959466b5caaaaafc6c = L.circleMarker(
+                [41.01075, -8.53543],
+                {"bubblingMouseEvents": true, "color": "#199750", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#199750", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_ea4aae46f5e925f9a83c9f79d01994af = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_ad9619bcbb948168d15825f107ed4cfc = $(`<div id="html_ad9619bcbb948168d15825f107ed4cfc" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Big House Near Porto and beachs</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.2</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>28</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>100.0</span></p>         </div>`)[0];
+                popup_ea4aae46f5e925f9a83c9f79d01994af.setContent(html_ad9619bcbb948168d15825f107ed4cfc);
+            
+        
+
+        circle_marker_fdc9cda88d8a95959466b5caaaaafc6c.bindPopup(popup_ea4aae46f5e925f9a83c9f79d01994af)
+        ;
+
+        
+    
+    
+            var circle_marker_1d086244e200e3a573e9101c8f64f3d0 = L.circleMarker(
+                [41.17178, -8.59486],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_f27c5207ced24e97960ed56697b63bea = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_dc3bfe3ea48eb05c444b3f20589299f5 = $(`<div id="html_dc3bfe3ea48eb05c444b3f20589299f5" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>E-House Relógio - 2C</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.0</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>25</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>13.0</span></p>         </div>`)[0];
+                popup_f27c5207ced24e97960ed56697b63bea.setContent(html_dc3bfe3ea48eb05c444b3f20589299f5);
+            
+        
+
+        circle_marker_1d086244e200e3a573e9101c8f64f3d0.bindPopup(popup_f27c5207ced24e97960ed56697b63bea)
+        ;
+
+        
+    
+    
+            var circle_marker_114cfa5823ae4d2337166559566d438a = L.circleMarker(
+                [41.14878, -8.62249],
+                {"bubblingMouseEvents": true, "color": "#06733d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#06733d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_b048fcad3e81baacd96744f4e5d41236 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_96013002db9159daf75c2c30d40e11d7 = $(`<div id="html_96013002db9159daf75c2c30d40e11d7" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Gallery´s Street House</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.8</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>166</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>35.0</span></p>         </div>`)[0];
+                popup_b048fcad3e81baacd96744f4e5d41236.setContent(html_96013002db9159daf75c2c30d40e11d7);
+            
+        
+
+        circle_marker_114cfa5823ae4d2337166559566d438a.bindPopup(popup_b048fcad3e81baacd96744f4e5d41236)
+        ;
+
+        
+    
+    
+            var circle_marker_80b409bc849140576747d5334301f30c = L.circleMarker(
+                [41.14258, -8.60741],
+                {"bubblingMouseEvents": true, "color": "#16914d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#16914d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_17c23e98c4cda969405a1c00dd938f86 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e7574a4783c1283be51dfb988e7d6a57 = $(`<div id="html_e7574a4783c1283be51dfb988e7d6a57" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Guindais Well House - Porto downtown</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.3</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>29</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>180.0</span></p>         </div>`)[0];
+                popup_17c23e98c4cda969405a1c00dd938f86.setContent(html_e7574a4783c1283be51dfb988e7d6a57);
+            
+        
+
+        circle_marker_80b409bc849140576747d5334301f30c.bindPopup(popup_17c23e98c4cda969405a1c00dd938f86)
+        ;
+
+        
+    
+    
+            var circle_marker_2a68fd7d0dffd9052f45f53b756cad7d = L.circleMarker(
+                [41.16794, -8.61042],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_9fee5d80bd89a4c31b9718bc68f1ddbe);
+        
+    
+        var popup_4920d3f6b49df97370b288a46aaeb2a7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3a28fbe45b57feca458ee999d57c6e5f = $(`<div id="html_3a28fbe45b57feca458ee999d57c6e5f" style="width: 100.0%; height: 100.0%;">         <h3>Name: <span style='color: blue;'>Spacious sunny suite, city center</span></h3><br>         <p style='font-size: 20px; line-height: 0.5;'>Rating: <span style='color: blue;'>9.5</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Reviews: <span style='color: blue;'>151</span></p><br>         <p style='font-size: 20px; line-height: 0.5;'>Price: <span style='color: green;'>28.0</span></p>         </div>`)[0];
+                popup_4920d3f6b49df97370b288a46aaeb2a7.setContent(html_3a28fbe45b57feca458ee999d57c6e5f);
+            
+        
+
+        circle_marker_2a68fd7d0dffd9052f45f53b756cad7d.bindPopup(popup_4920d3f6b49df97370b288a46aaeb2a7)
+        ;
+
+        
+    
+</script>
+</html>
