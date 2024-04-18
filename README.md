@@ -55,7 +55,7 @@ To run the analysis and generate the visualizations, you will need:
     Execute the analysis script:
 
     ```shell
-    python analysis.py
+    streamlit run Home.py
     ```
 
 5. **View the visualizations**:
