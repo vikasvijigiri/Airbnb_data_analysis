@@ -64,13 +64,12 @@ To run the analysis and generate the visualizations, you will need:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the Apache License 2.0. You can find a copy of the license in the `LICENSE` file.
 
 ## Acknowledgments
 
 - The data used in this project is sourced from Airbnb's publicly available datasets.
-- Special thanks to [data providers] for making this project possible.
-
+- 
 ## Contributing
 
 Contributions are welcome! Please see the [contribution guidelines](CONTRIBUTING.md) for more details.
