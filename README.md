@@ -28,7 +28,7 @@ The project includes the following analysis and visualizations:
 To run the analysis and generate the visualizations, you will need:
 
 - **Python**: Version 3.6 or later.
-- **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, and other data analysis and visualization libraries.
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `streamlit` and other data analysis and visualization libraries.
 
 ## Instructions
 
